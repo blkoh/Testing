@@ -1,0 +1,21 @@
+﻿<Page x:Class="Testing.ViewControls.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Testing.ViewControls"
+      mc:Ignorable="d" 
+      d:DesignHeight="342" d:DesignWidth="872"
+      Title="Page2">
+
+    <Grid Background="White">
+        <Label>You are at Page 2</Label>
+        <StackPanel>
+            <Button Content="Load page 1" Margin="27,56,622,293" Click="Button_Click"/>
+        </StackPanel>
+        <Grid Margin="95,174,166,105">
+            <Button Content="Hello World" HorizontalAlignment="Left" Margin="173,71,0,0" VerticalAlignment="Top" Width="75"/>
+
+        </Grid>
+    </Grid>
+</Page>
